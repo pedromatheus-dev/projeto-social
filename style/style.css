@@ -42,3 +42,22 @@ iframe {
     border-radius: 2px;
     border: 1px solid #00000022;
 }
+
+#redes-sociais{
+    text-align: right;
+}
+
+#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.238);
+    border-radius: 50%;
+}
+
+#redes-sociais img:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.707);
+    transform: translate(-3px, -3px);
+    filter: brightness(1.2);
+    border: 2px solid rgba(255, 255, 255, 0.758);
+    transition: all 0.5s;
+}
